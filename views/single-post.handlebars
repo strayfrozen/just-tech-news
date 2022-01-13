@@ -10,6 +10,7 @@
     <a href="/post/{{post.id}}">{{post.comments.length}} comment(s)</a>
   </div>
 </article>
+
 {{#if loggedIn}}
 <form class="comment-form">
   <div>
@@ -35,7 +36,6 @@
   </section>
   {{/each}}
 </div>
-
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
